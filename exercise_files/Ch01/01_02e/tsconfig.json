@@ -1,8 +1,8 @@
 {
     "compilerOptions": {
-        "outDir": "build",
-        "target": "esnext",
-        "noEmit": true
+        "outDir": "build", // ts dosyasını derlediğimizde elde edilen .js dosyalarını belirli bir klasöre toplamak için kullanıyoruz. 
+        "target": "esnext", //  derlenen JavaScript kodunun hangi ECMAScript sürümüyle uyumlu olması gerektiğini belirtir. 
+        "noEmit": true // TypeScript derleyicisi hiçbir çıktı dosya üretmez. Bu, genellikle yalnızca tip kontrolü yapmak istediğinizde veya bir başka araç (örneğin, Babel) ile birlikte TypeScript'i kullanıyorsanız kullanışlıdır.
     },
     "include": ["src/**/*"]
 }
